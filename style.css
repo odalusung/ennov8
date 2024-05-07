@@ -9,12 +9,6 @@
 #header i{
     display: none;
 }
-.fa-bars {
-    display: none;
-}
-.fa-circle-xmark{
-    display: none;
-}
 
 body{
     color: #000000;
@@ -710,8 +704,11 @@ margin: 30px;
         align-items: center;
     }
 
-    #header nav .logo{
+    #header nav img{
         width: 300px;
+    }
+    #header nav a {
+       
         position: absolute;
         top: 2px;
         left: auto;
@@ -780,6 +777,32 @@ margin: 30px;
         padding: 0% 50px;
         margin-bottom: 0%;
     }
+
+    #team {
+        height: auto;
+    }
+
+    /**********pre-q************/
+
+   .pre-title h1{
+    font-size: 18px;
+   }
+
+   .preq-list h2{
+    font-size: 15px;
+   }
+
+   .preq-list h3
+   {
+    font-size: 13px;
+   }
+
+   .preq-list i{
+    font-size: 20px;
+    border-radius: 10px;
+   }
+
+  
 
 
     /**********services***************/
