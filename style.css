@@ -516,8 +516,7 @@ form input, form textarea{
 }
 
 .end-section img{
-    border: 2px solid whitesmoke;
-    background-color: whitesmoke;
+  
     padding: 20px;
     border-radius: 30px ;
     transition: transform .5s;
