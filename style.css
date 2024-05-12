@@ -352,13 +352,15 @@ nav{
 #team{
     background-color: rgb(238, 241, 250);
     margin-top: 0px ;
-    height: 90vh;
+    height: auto;
     padding: auto 0px;
 
 }
 
 #team .container{
     padding: auto 0px;
+    padding-bottom: 100px;
+
 }
 .sub-title2 {
     padding: 50px  0px;
@@ -368,21 +370,46 @@ nav{
 }
 
 .team-list{
+    background-color: rgb(247, 248, 244);
+    border-radius: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
-    grid-gap: 0px;
-    margin: 0px 200px;
+    grid-template-rows: repeat(auto-fit,minmax(300px, 1fr));
+    grid-gap: 70px;
+    margin: 0px 400px;
     align-items: center; 
     justify-items: center; 
-    
+    padding:50px 0px;
+   margin-bottom: 100px;
+   padding-right: 100px;
 }
 
+.t2{
+    padding-top: 60px;
+}
 
+ .tlist .t2 p
+ {
+  
+ padding: auto 0px;
+ font-size: 14px;
+ border-bottom: 1px solid blue;
+ border-top:1px solid blue; ;
+   
+
+}
 
 
 .tlist h2{
     font-size: 20px;
     text-align: center;
+}
+
+.tlist{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    
+    
 }
 
 .tlist p{
@@ -392,7 +419,6 @@ nav{
 }
 
 .team-list { 
-  
     font-size: 30px;
     text-align: center;
     
@@ -401,6 +427,7 @@ nav{
 .team-list img{
     width: 200px;
     border-radius: 100px;
+    border: 3px solid black;
     
 }
 
@@ -682,7 +709,7 @@ margin: 30px;
 
     }
     #header{
-       height: 22vh;
+       height: 20vh;
        background-image: url(images/p-about.png);
        position: none;
     }
@@ -745,8 +772,8 @@ margin: 30px;
 
     .team-list
     {
-        margin: 0;
-        padding: 0;
+        margin:  0px;
+        padding: 90px 0px;
     }
 
     .services-list{
@@ -779,6 +806,11 @@ margin: 30px;
 
     #team {
         height: auto;
+    }
+
+    .tlist .t2 p
+    {
+       margin: 0px 30px;
     }
 
     /**********pre-q************/
