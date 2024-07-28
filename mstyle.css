@@ -6,6 +6,10 @@
    
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 #header i{
     display: none;
@@ -75,8 +79,6 @@ body{
 .logo{
     width:200px;
     animation: entrance-opacity 2s ease-in-out;
-   
-    
 } 
 
 #header .container{
@@ -113,13 +115,12 @@ body{
     justify-content:center;
     align-items: center;
     margin: 4px solid black;
-    padding: 0px 50px;
-    padding-bottom: 10px;
+    padding: 40px 50px;
+    /**padding-bottom: 0px;*/
     
 }
 
 nav{
-
     display: flex;
     justify-content:center;
     align-items: center;
@@ -138,7 +139,7 @@ nav{
     justify-content: center;
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 50px;
     position: relative;
     margin: 4px solid black;
@@ -358,6 +359,7 @@ nav{
 .team-list{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    
     grid-gap: 0px;
     margin: 0px 200px;
     align-items: center; 
@@ -366,15 +368,13 @@ nav{
 }
 
 
-
-
 .tlist h2{
     font-size: 20px;
     text-align: center;
 }
 
 .tlist p{
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
     padding: 5px;
 }
@@ -501,7 +501,7 @@ form input, form textarea{
 }
 
 .end-section img{
- 
+
     padding: 20px;
     border-radius: 30px ;
     transition: transform .5s;
